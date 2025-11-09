@@ -1,4 +1,4 @@
-#  Sweat Socks Society# Sweat Socks Society
+#  Sweat Socks Society
 
 
 
