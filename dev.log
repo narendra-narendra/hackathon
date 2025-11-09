@@ -1,0 +1,139 @@
+
+> tribuddy@0.1.0 dev
+> next dev -p 3000
+
+  ▲ Next.js 14.2.33
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 952ms
+Error: Cannot apply unknown utility class `bg-primary`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    at onInvalidCandidate (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:21:1314)
+    at Te (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:16:36364)
+    at /Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:21:355
+    at Tr (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:3:1718)
+    at _ (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:3:1377)
+    at Se (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:21:172)
+    at ln (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:38:294)
+    at async sn (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:38:631)
+    at async Qr (/Users/harshithreddy/Desktop/Project/node_modules/@tailwindcss/node/dist/index.js:10:3385)
+    at async I (/Users/harshithreddy/Desktop/Project/node_modules/@tailwindcss/postcss/dist/index.js:10:3978)
+    at async Object.Once (/Users/harshithreddy/Desktop/Project/node_modules/@tailwindcss/postcss/dist/index.js:10:4250)
+    at async LazyResult.runAsync (/Users/harshithreddy/Desktop/Project/node_modules/next/node_modules/postcss/lib/lazy-result.js:261:11)
+    at async Span.traceAsyncFn (/Users/harshithreddy/Desktop/Project/node_modules/next/dist/trace/trace.js:154:20)
+    at async /Users/harshithreddy/Desktop/Project/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js:54:22
+    at async Span.traceAsyncFn (/Users/harshithreddy/Desktop/Project/node_modules/next/dist/trace/trace.js:154:20)
+Error: Cannot apply unknown utility class `bg-primary`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    at onInvalidCandidate (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:21:1314)
+    at Te (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:16:36364)
+    at /Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:21:355
+    at Tr (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:3:1718)
+    at _ (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:3:1377)
+    at Se (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:21:172)
+    at ln (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:38:294)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async sn (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:38:631)
+    at async Qr (/Users/harshithreddy/Desktop/Project/node_modules/@tailwindcss/node/dist/index.js:10:3385)
+    at async I (/Users/harshithreddy/Desktop/Project/node_modules/@tailwindcss/postcss/dist/index.js:10:3978)
+    at async Object.Once (/Users/harshithreddy/Desktop/Project/node_modules/@tailwindcss/postcss/dist/index.js:10:4250)
+    at async LazyResult.runAsync (/Users/harshithreddy/Desktop/Project/node_modules/next/node_modules/postcss/lib/lazy-result.js:261:11)
+    at async Span.traceAsyncFn (/Users/harshithreddy/Desktop/Project/node_modules/next/dist/trace/trace.js:154:20)
+    at async /Users/harshithreddy/Desktop/Project/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js:54:22
+ ⨯ ./styles/globals.css:1:1
+Syntax error: tailwindcss: /Users/harshithreddy/Desktop/Project/styles/globals.css Cannot apply unknown utility class `bg-primary`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+
+> 1 | @tailwind base;
+    | ^
+  2 | @tailwind components;
+  3 | @tailwind utilities;
+Do not add stylesheets using next/head (see <link rel="stylesheet"> tag with href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"). Use Document instead. 
+See more info here: https://nextjs.org/docs/messages/no-stylesheets-in-head-component
+Do not add stylesheets using next/head (see <link rel="stylesheet"> tag with href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"). Use Document instead. 
+See more info here: https://nextjs.org/docs/messages/no-stylesheets-in-head-component
+Could not find files for /_error in .next/build-manifest.json
+Could not find files for /_error in .next/build-manifest.json
+ GET /_next/static/webpack/c67478ebfe0c7cac.webpack.hot-update.json 404 in 368ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 500 in 79ms
+ ○ Compiling / ...
+ GET / 500 in 296ms
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/harshithreddy/Desktop/Project/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[7].oneOf[14].use[1]!/Users/harshithreddy/Desktop/Project/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[7].oneOf[14].use[2]!/Users/harshithreddy/Desktop/Project/styles/globals.css': No serializer registered for PostCSSSyntaxError
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> PostCSSSyntaxError
+ GET / 500 in 5ms
+ GET / 500 in 4ms
+ GET / 500 in 3ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 500 in 5ms
+Error: Could not resolve value for theme function: `theme(colors.primary)`. Consider checking if the path is correct or provide a fallback value to silence this error.
+    at Object.co [as theme] (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:13:4834)
+    at /Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:13:5515
+    at Tr (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:3:1718)
+    at _ (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:3:1377)
+    at Hr (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:13:5407)
+    at /Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:13:5179
+    at Tr (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:3:1718)
+    at _ (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:3:1377)
+    at je (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:13:5104)
+    at ln (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:38:283)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async sn (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:38:631)
+    at async Qr (/Users/harshithreddy/Desktop/Project/node_modules/@tailwindcss/node/dist/index.js:10:3385)
+    at async I (/Users/harshithreddy/Desktop/Project/node_modules/@tailwindcss/postcss/dist/index.js:10:3978)
+    at async Object.Once (/Users/harshithreddy/Desktop/Project/node_modules/@tailwindcss/postcss/dist/index.js:10:4250)
+ ⨯ ./styles/globals.css:1:1
+Syntax error: tailwindcss: /Users/harshithreddy/Desktop/Project/styles/globals.css Could not resolve value for theme function: `theme(colors.primary)`. Consider checking if the path is correct or provide a fallback value to silence this error.
+
+> 1 | @tailwind base;
+    | ^
+  2 | @tailwind components;
+  3 | @tailwind utilities;
+Error: Could not resolve value for theme function: `theme(colors.primary)`. Consider checking if the path is correct or provide a fallback value to silence this error.
+    at Object.co [as theme] (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:13:4834)
+    at /Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:13:5515
+    at Tr (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:3:1718)
+    at _ (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:3:1377)
+    at Hr (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:13:5407)
+    at /Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:13:5179
+    at Tr (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:3:1718)
+    at _ (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:3:1377)
+    at je (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:13:5104)
+    at ln (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:38:283)
+    at async sn (/Users/harshithreddy/Desktop/Project/node_modules/tailwindcss/dist/lib.js:38:631)
+    at async Qr (/Users/harshithreddy/Desktop/Project/node_modules/@tailwindcss/node/dist/index.js:10:3385)
+    at async I (/Users/harshithreddy/Desktop/Project/node_modules/@tailwindcss/postcss/dist/index.js:10:3978)
+    at async Object.Once (/Users/harshithreddy/Desktop/Project/node_modules/@tailwindcss/postcss/dist/index.js:10:4250)
+    at async LazyResult.runAsync (/Users/harshithreddy/Desktop/Project/node_modules/next/node_modules/postcss/lib/lazy-result.js:261:11)
+ ⨯ ./styles/globals.css:1:1
+Syntax error: tailwindcss: /Users/harshithreddy/Desktop/Project/styles/globals.css Could not resolve value for theme function: `theme(colors.primary)`. Consider checking if the path is correct or provide a fallback value to silence this error.
+
+> 1 | @tailwind base;
+    | ^
+  2 | @tailwind components;
+  3 | @tailwind utilities;
+ GET / 500 in 21ms
+ GET / 500 in 2ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 500 in 9ms
+ ⨯ ./styles/globals.css:23:1
+Syntax error: /Users/harshithreddy/Desktop/Project/styles/globals.css Unexpected }
+
+  21 |   backdrop-filter: blur(2px);
+  22 | }
+> 23 | }
+     | ^
+  24 |
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/harshithreddy/Desktop/Project/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[7].oneOf[14].use[1]!/Users/harshithreddy/Desktop/Project/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[7].oneOf[14].use[2]!/Users/harshithreddy/Desktop/Project/styles/globals.css': No serializer registered for PostCSSSyntaxError
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> PostCSSSyntaxError
+ ✓ Compiled / in 129ms (266 modules)
+ ✓ Compiled / in 46ms (349 modules)
+Do not add stylesheets using next/head (see <link rel="stylesheet"> tag with href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"). Use Document instead. 
+See more info here: https://nextjs.org/docs/messages/no-stylesheets-in-head-component
+ GET /_next/static/webpack/c67478ebfe0c7cac.webpack.hot-update.json 404 in 58ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 53ms
+ GET /_next/static/webpack/c67478ebfe0c7cac.webpack.hot-update.json 404 in 1ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 7ms
+ GET / 200 in 2ms
+ GET / 200 in 7ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 5ms
+[?25h
